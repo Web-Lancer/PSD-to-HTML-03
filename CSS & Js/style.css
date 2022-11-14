@@ -7,11 +7,26 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     margin: 0;
-    
 }
 
 .container {
     margin: 0 auto;
-    width: 960px;
-
+    max-width: 960px;
+    width: 96%;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*==========================
+ Top header CSS
+ =========================== */
+.header_area {
+    width: 100%;
+    clear: both;
+}
+
+#top_header_area {background-color: #ba2e1f;
+padding: 15px 0;}
