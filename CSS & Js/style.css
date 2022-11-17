@@ -28,5 +28,8 @@ img {
     clear: both;
 }
 
-#top_header_area {background-color: #ba2e1f;
-padding: 15px 0;}
+#top_header_area {
+    background-color: #ba2e1f;
+    padding: 15px 0;
+    width: 100%;
+}
