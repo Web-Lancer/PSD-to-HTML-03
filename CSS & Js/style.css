@@ -32,4 +32,39 @@ img {
     background-color: #ba2e1f;
     padding: 15px 0;
     width: 100%;
+    overflow: hidden;
+}
+
+.mini_menu {
+    width: 70%;
+    float: left;
+}
+
+.mini_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.mini_menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mini_menu ul li a{
+      color: white;
+      display: block;
+      font-size: 14px;
+      text-decoration: none;
+}
+
+.mini_menu ul li a:hover{
+    color: #ddd;
+}
+
+
+.search_area {
+    width: 30%;
+    float: right;
 }
